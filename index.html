@@ -1,9 +1,90 @@
-<html>
-    <head>
-        <title>Page Title</title>
-    </head>
-    <body>
-        <h1>This is a Heading</h1>
-        <p>This is a Paragraph</p>
-    </body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Workshop #HTML - FORM</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">ชื่อ</label>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="fname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">สกุล</label>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birthday">วัน/เดือน/ปีเกิด</label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">อายุ</label>
+                </td>
+                <td>
+                    <input type="text" id="age" name="age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">เพศ</label>
+                </td>
+                <td>
+                    <input type="radio" id="gender_b" name="gender" value="ชาย">
+                    <label for="gender_b">ชาย</label>
+                    <input type="radio" id="gender_g" name="gender" value="หญิง">
+                    <label for="gender_g">หญิง</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pic">รูป</label>
+                </td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">ที่อยู่</label>
+                </td>
+                <td>
+                    <textarea rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="color">สีที่ชอบ</label>
+                </td>
+                <td>
+                    <select id="colors" name="colors" size="1">
+                        <option value="ดำ">ดำ</option>
+                        <option value="ขาว">ขาว</option>
+                        <option value="แดง">แดง</option>
+                        <option value="ม่วง">ม่วง</option>
+                        <option value="ส้ม">ส้ม</option>
+                    </select>                       
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
 </html>
