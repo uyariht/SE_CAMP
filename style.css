@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4CAF50, #00bcd4); /* Gradient background */
+    color: #fff; /* Text color for better contrast */
+}
+
+h1 {
+    color: #fff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+    border: 2px solid #fff; /* Border color for the table */
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    border-radius: 10px; /* Border radius for the table */
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #fff; /* Border color for table cells */
+    border-radius: 8px; /* Border radius for table cells */
+}
+
+label {
+    font-weight: bold;
+    color: #333; /* Label color */
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Input border color */
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="file"] {
+    width: 100%;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+select {
+    background-color: #fff; /* Background color for select */
+}
+
+input[type="reset"],
+input[type="submit"] {
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="reset"] {
+    background-color: #e74c3c; /* Reset button color */
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71; /* Submit button color */
+    color: #fff;
+}
+
+/* Styling for checkbox and label */
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 5px;
+}
+
+/* Styling for background color of selected radio and checkbox */
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background-color: #333;
+}
+
+/* Styling for the form's acceptance checkbox label */
+#accept {
+    color: #333;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+}
