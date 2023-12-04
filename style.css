@@ -55,7 +55,7 @@ input[type="checkbox"] {
 input[type="file"] {
     width: 100%;
     margin-top: 5px;
-    background-color: #000; /* Background color for file input */
+    background-color: #fff; /* Background color for file input */
     color: #fff; /* Text color for file input */
     padding: 8px; /* Adjust padding for better appearance */
     border: none;
@@ -100,6 +100,9 @@ input[type="checkbox"]:checked {
     background-color: #333;
 }
 
+.radio{
+    margin-top: 2rem;
+}
 /* Styling for the form's acceptance checkbox label */
 #accept {
     color: #333;

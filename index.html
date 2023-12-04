@@ -1,108 +1,98 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<center>
+
 <head>
-    <h1>Workshop #HTML - FORM</h1>
+    <!-- Include a separate CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Set the document title and define character set -->
+    <title>Workshop HTML - FORM</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
-<body bgcolor="#D4D2F2" style="background: linear-gradient(to right, #D4D2F2, #FBCCC2);">
-    <form>
-        <table border="1" cellpadding="10" cellspacing="0" width="50%" style="background: linear-gradient(#E0C7EE, #E1FEFE);">
-            <tr>
-                <td>
-                    <label for="fname">ชื่อ</label>
-                </td>
-                <td>
-                    <input type="text" id="fname" name="fname">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="lname">สกุล</label>
-                </td>
-                <td>
-                    <input type="text" id="lname" name="lname">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="birthday">วัน/เดือน/ปีเกิด</label>
-                </td>
-                <td>
-                    <input type="date">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="age">อายุ</label>
-                </td>
-                <td>
-                    <input type="text" id="age" name="age">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="gender">เพศ</label>
-                </td>
-                <td>
-                    <input type="radio" id="gender_b" name="gender" value="ชาย">
-                    <label for="gender_b">ชาย</label>
-                    <input type="radio" id="gender_g" name="gender" value="หญิง">
-                    <label for="gender_g">หญิง</label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="pic">รูป</label>
-                </td>
-                <td>
-                    <input type="file">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="address">ที่อยู่</label>
-                </td>
-                <td>
-                    <textarea rows="4"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="color">สีที่ชอบ</label>
-                </td>
-                <td>
-                    <select id="colors" name="colors" size="1">
-                        <option value="ดำ">ดำ</option>
-                        <option value="ขาว">ขาว</option>
-                        <option value="แดง">แดง</option>
-                        <option value="ม่วง">ม่วง</option>
-                        <option value="ส้ม">ส้ม</option>
-                    </select>                       
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="music">แนวเพลงที่ชอบ</label>
-                </td>
-                <td>
-                    <input type="radio" id="music_pcv" name="music" value="เพื่อชีวิต">
-                    <label for="music_pcv">เพื่อชีวิต</label>
-                    <input type="radio" id="music_lt" name="music" value="ลูกทุ่ง">
-                    <label for="music_lt">ลูกทุ่ง</label>
-                    <input type="radio" id="another" name="music" value="อื่นๆ">
-                    <label for="another">อื่นๆ</label>
-                </td>
-            </tr>
-        </table>
-        <input type="checkbox" id="accept" name="accept" value="check">
-        <label for="accept"> ยินยอมให้เก็บข้อมูล</label><br><br><br>
-        <input type="reset" value="Reset" style="background-color: red; color: white;">&emsp;&emsp;&emsp;&emsp;
-        <input type="submit" value="Submit" style="background-color: green; color: white;">
-    </form>
+
+<body style="background: linear-gradient(to right, #D4D2F2, #FBCCC2);">
+    <!-- Center the content -->
+    <div style="text-align: center; margin-top: 20px;">
+        <!-- Main heading for the form -->
+        <h1>Workshop #HTML - FORM</h1>
+
+        <!-- Start of the form -->
+        <form>
+            <!-- Styled table for form elements -->
+            <table border="1" cellpadding="10" cellspacing="0" width="50%" style="background: linear-gradient(#E0C7EE, #E1FEFE);">
+                <!-- Table rows for different form fields -->
+                <tr>
+                    <td><label for="fname">NAME</label></td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">สกุล</label></td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="birthday">วัน/เดือน/ปีเกิด</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">อายุ</label></td>
+                    <td><input type="text" id="age" name="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">เพศ</label></td>
+                    <td>
+                        <input type="radio" id="gender_b" name="gender" value="ชาย">
+                        <label for="gender_b">ชาย</label>
+                        <input type="radio" id="gender_g" name="gender" value="หญิง">
+                        <label for="gender_g">หญิง</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pic">รูป</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">ที่อยู่</label></td>
+                    <td><textarea rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="color">สีที่ชอบ</label></td>
+                    <td>
+                        <select id="colors" name="colors" size="1">
+                            <option value="ดำ">ดำ</option>
+                            <option value="ขาว">ขาว</option>
+                            <option value="แดง">แดง</option>
+                            <option value="ม่วง">ม่วง</option>
+                            <option value="ส้ม">ส้ม</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="music">แนวเพลงที่ชอบ</label></td>
+                    <td>
+                        <input type="radio" id="music_pcv" name="music" value="เพื่อชีวิต">
+                        <label for="music_pcv">เพื่อชีวิต</label>
+                        <input type="radio" id="music_lt" name="music" value="ลูกทุ่ง">
+                        <label for="music_lt">ลูกทุ่ง</label>
+                        <input type="radio" id="another" name="music" value="อื่นๆ">
+                        <label for="another">อื่นๆ</label>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Checkbox for data consent -->
+            <div class="radio">
+                <input type="checkbox" id="accept" name="accept" value="check">
+                <label for="accept"> ยินยอมให้เก็บข้อมูล</label>
+            </div>
+            
+
+            <br>
+
+            <!-- Reset and Submit buttons with custom styles -->
+            <input type="reset" value="Reset" style="background-color: red; color: white;">&emsp;&emsp;&emsp;&emsp;
+            <input type="submit" value="Submit" style="background-color: green; color: white;">
+        </form>
+    </div>
 </body>
-</center>
+
 </html>
