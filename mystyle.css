@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+    color: rgb(255, 0, 0);
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    background-color: #ff0000; 
+    text-align: center;
+    border: 5px solid #fff; 
+    padding: 10px;
+    margin: 50px auto; 
+    position: relative;
+}
+
+.box:hover {
+    background-color: #FFD700;
+    box-shadow: 5px 5px 15px white; 
+}
+
+a {
+    color: burlywood;
+}
+
+a:link {
+    color: brown;
+}
+
+.box::before {
+    content: "\2605";
+    font-size: 60pt;
+    color: #FFD700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box::after {
+    content: "Merry Christmas!";
+    font-size: 20pt;
+    color: brown;
+    display: block;
+}
+
+body {
+    background-color: #303030;
+    overflow: hidden;
+}
+
+.gif-left {
+    position: fixed;
+    left: 100px; 
+    bottom: 20px;
+    z-index: 9998; 
+  }
+  
+  .gif-right {
+    position: fixed;
+    right: 100px; 
+    bottom: 20px;
+    z-index: 9998; 
+  }
