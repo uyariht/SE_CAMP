@@ -39,6 +39,6 @@ a:link {
 }
 
 body {
-    background-color: #303030;
+    background-image: url(bg.gif);
     overflow: hidden;
 }
