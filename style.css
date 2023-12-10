@@ -6,39 +6,37 @@ h1 {
 
 .box {
     width: 400px;
-    height: 400px;
-    color: #fff;
-    background-color: #ff0000; 
+    height: 420px;
+    color: #ff0000;
+    font-size: 20pt;
+    background-image: url(first.jpg); 
     text-align: center;
     border: 5px solid #fff; 
     padding: 10px;
     margin: 50px auto; 
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .box:hover {
-    background-color: green;
-    box-shadow: 5px 5px 15px white; 
+    background-image: url(hover.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 35px black; 
 }
 
 a {
-    color: burlywood;
+    font-size: 50pt;
+    color: red;
 }
 
 a:link {
-    color: brown;
-}
-
-
-
-.box::after {
-    content: "Merry Christmas!";
-    font-size: 20pt;
-    color: brown;
-    display: block;
+    color: gray;
 }
 
 body {
     background-image: url(bg.gif);
+    background-size: cover;
     overflow: hidden;
 }
