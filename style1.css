@@ -1,0 +1,20 @@
+body{
+    background-image: url(teach.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    margin-left: 25% ;
+}
+
+h2{
+    margin-left: 25% ;
+}
+
+.multiply-container {
+    max-height: 250px;
+    max-width: 250px;
+    overflow-y: auto; 
+    margin: 20px;
+    margin-left: 22.5% ;
+}

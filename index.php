@@ -1,32 +1,33 @@
 <html>
-    <body>
-        <h1>This is PHP <?php echo 'Hello World!' ?></h1>
-        <div>
-            <p>1</p>
-            <?php
-            $var_a = 1;
-            $var_a = "1$var_a";
-            print_r($var_a);
-            echo"<br>";
-            #var_dump($var_a);
-            echo $var_a . "2";
-            $arry = array();
-            $arry = [];
-            $arry[] = 1;
-            $arry[] = 2;
-            $arry[0] = 3;
-            print_r($arry);
-            //count
-            //sizeof
-            for($i=0; $i<count($arry);$i++)
-            {
-                echo "<h1>my h1</h1>";  
-            ?>
-            <p>2</p>
-            <?php
-            }
-            ?>
-            <p>3</p>
-        </div>
-    </body>
+<center>
+    <br><br><br><br><br><br><br><br><br>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h2>เรามาเรียนกันเล๊ยย</h2>
+    <?php $multi_x = 625; ?>
+    <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
+    <div class="multiply-container">
+        <table>
+            <tbody>
+                <?php
+                    for ($i = 1; $i <= 24; $i++) {
+                        ?>
+                        <tr>
+                            <td><?php echo $multi_x ?></td>
+                            <td>x</td>
+                            <td><?php echo $i ?></td>
+                            <td>=</td>
+                            <td><?php echo $multi_x * $i ?></td>
+                        </tr>
+                    <?php
+                    }
+                    ?>
+            </tbody>
+        </table>
+    </div>
+</body>
+</center>
 </html>
