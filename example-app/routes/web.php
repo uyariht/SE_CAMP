@@ -35,3 +35,12 @@ Route::post('/my-route', function (Request $req) {
     $data['myinput'] = $req->input('myinput');
     return view('myroute', $data);
 });
+
+Route::get('/my-multiply' , function(){
+    return view('myfolder.mypage');
+});
+
+Route::post('/my-multiply', function (Request $req) {
+    $data['myinput'] = $req->input('myinput');
+    return view('mymulti', $data);
+});
