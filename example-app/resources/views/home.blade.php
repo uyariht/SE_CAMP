@@ -33,9 +33,9 @@
                     <label for="exampleInputGender">Gender</label>
                     <br>
                     <input type="radio" id="gender_b" name="gender" value="ชาย">
-                    <label for="gender_b">man</label>
+                    <label for="gender_b">Male</label>
                     <input type="radio" id="gender_g" name="gender" value="หญิง">
-                    <label for="gender_g">woman</label>
+                    <label for="gender_g">Female</label>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputFile">Picture input</label>
@@ -50,7 +50,7 @@
                   </div>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputAdress">Adress</label>
+                    <label for="exampleInputAdress">Address</label>
                     <input type="address" class="form-control" id="exampleInputAdress" placeholder="Enter your address">
                 </div>
                 <div class="form-group">

@@ -173,7 +173,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <img src="{{ url('assets/dist/img/65160220.jpg') }}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Thirayu Phromkhot</a>
+          <a href="#" class="d-block">{{ Auth::user()->name}}</a>
         </div>
       </div>
 
