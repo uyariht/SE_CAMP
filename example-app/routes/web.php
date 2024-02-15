@@ -39,6 +39,10 @@ Route::get('/', function () {
     return view('welcome'); //welcome.blade.php
 });
 
+Route::get('/jscript', function () {
+    return view('multi_jscript'); //welcome.blade.php
+});
+
 Route::get('/my-route' , function(){
     $data = ['val_a' => 'Hello World!'];
     $data['val_b'] = "Laravel";
